@@ -1,3 +1,31 @@
-.flex-container {
-  display: flex;
+.insta1 {
+  width: 50px;
+  position: absolute;
+  right: 75%;
+  bottom: 25%;
+}
+
+.insta2 {
+  width: 50px;
+  position: absolute;
+  right: 50%;
+  bottom: 25%;
+}
+
+.insta3 {
+  width: 50px;
+  position: absolute;
+  right: 25%;
+  bottom: 25%;
+}
+
+.abouttext {
+  text-align: center;
+  padding: 15px;
+ border: 3px solid red;
+ text-align: center;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-top: 5%;
+
 }
