@@ -7,22 +7,26 @@
  margin-left: 15%;
  margin-right: 15%;
  margin-top: 5%;
-
 }
 
-.iyad {
+.pfp {
   width: 250px;
   height: 250px;
 }
 
-.card1 {
+.profiles {
+  display: flex;
+  align-content: space-between;
+}
+
+.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 250px;
   margin: auto;
   text-align: center;
   font-family: arial;
-  margin-left: 33%;
-
+  flex: 33.33%;
+  padding: 5px;
 }
 
 .title {
@@ -32,19 +36,4 @@
 
 .instaicon {
   width:45px;
-}
-
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 250px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  margin-left: 66%;
-
-}
-
-.mouhamd {
-  width: 250px;
-  height: 250px;
 }
