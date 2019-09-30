@@ -22,11 +22,11 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 250px;
-  margin: auto;
+  margin: 100px;
   text-align: center;
   font-family: arial;
   flex: 33.33%;
-  padding: 5px;
+
 }
 
 .title {
