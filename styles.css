@@ -10,8 +10,8 @@
 }
 
 .pfp {
-  width: 260px;
-  height: 260px;
+  width: 265px;
+  height: 265px;
 }
 
 .profiles {
@@ -23,11 +23,14 @@
 
 .pfpcards {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 100px;
   text-align: center;
   font-family: arial;
-  flex: 33.33%;
-  border: solid 4px black;
+
+padding: 10px;
+margin-left: 181px;
+margin-right: 181px;
+border: double 6px black;
+border-radius: 20px;
 }
 
 .title {
