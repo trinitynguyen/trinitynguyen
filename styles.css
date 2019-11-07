@@ -1,43 +1,217 @@
+body {
+  background-image: url(img/collage.jpeg) !important;
+}
+/** Navbar **/
+.navbar {
+  border-radius: 0px 0px 10px 15px;
+  /**background-image: url(img/skateparkpic.PNG);**/
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #af0000;
+}
+
+.bg-light {
+  background-size: 2000px;
+}
+
+.btn-outline-success {
+  color: #ffffff !important;
+  border-color: #ff0000 !important;
+  outline-color: #af0000 !important;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #be0000 !important;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.show > .btn-outline-success.dropdown-toggle {
+  color: #fff;
+  background-color: #be0000 !important;
+  border-color: #be0000 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #c10900;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+}
+
+form.example button:hover {
+  background: black;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/** Home page **/
+.container {
+  padding: 60px;
+}
+
+.para {
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.homeparatitle {
+  text-align: center;
+  font-size: 25px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+div.container {
+  background-color: #f8f9fa !important;
+  max-width: 70%;
+}
+.homeparagraph {
+  font-size: 23px;
+}
+.homevideo {
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+#homecarousel {
+  width:50%;
+}
+/** Videos page **/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align: center;
+  justify-content: center;
+  flex-flow: row-wrap;
+  padding: 25px 125px;
+}
+
+.flex-item {
+  padding: 25px 125px;
+  align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.youtubeicon {
+  width: 5%;
+  height: 10%;
+}
+
+/** About page **/
 
 .abouttext {
   text-align: center;
   padding: 15px;
- border: 3px solid red;
- text-align: center;
- margin-left: 15%;
- margin-right: 15%;
- margin-top: 5%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
 }
 
 .pfp {
   width: 265px;
   height: 265px;
+  border: 2px solid black;
 }
 
 .profiles {
   display: flex;
-  align-items:center;
-
-
+  flex-direction: row;
+  box-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .pfpcards {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: arial;
-
-padding: 10px;
-margin-left: 181px;
-margin-right: 181px;
-border: double 6px black;
-border-radius: 20px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: solid 2px black;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .title {
-  color: grey;
+  color: black;
   font-size: 18px;
 }
 
 .instaicon {
-  width:45px;
+  width: 45px;
+}
+
+.abouttext {
+  color: white;
+}
+.flex-item {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 200px;
+}
+.pfnames {
+  font-size: 27px;
+  color: black;
+}
+
+
+/*------footer-----*/
+
+footer {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 60px 0px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    color: black;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
 }
