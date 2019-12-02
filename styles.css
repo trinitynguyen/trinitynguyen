@@ -1,6 +1,9 @@
 body {
   background-image: url(img/collage.jpeg) !important;
 }
+* {
+  font-family: 'Sriracha', sans-serif;
+}
 /** Navbar **/
 .navbar {
   border-radius: 0px 0px 10px 15px;
@@ -44,174 +47,196 @@ body {
   border-color: #be0000 !important;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-/* Style the search field */
-form.example input[type="text"] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-}
-
-/* Style the submit button */
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #c10900;
-  color: black;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-}
-
-form.example button:hover {
-  background: black;
-}
-
-/* Clear floats */
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 /** Home page **/
-.container {
+
+.pagecont {
+  background-color: #f8f9fa !important;
+  max-width: 70%;
   padding: 60px;
 }
 
-.para {
-  color: rgb(0, 0, 0);
-  border-radius: 10px;
+ 
+
+.container {
+  padding: 20px;
 }
+
+ 
+
+
+
+ 
+
 .homeparatitle {
   text-align: center;
-  font-size: 25px;
+  font-size:1.3vw;
+ 
 }
+
+ 
+
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-div.container {
-  background-color: #f8f9fa !important;
-  max-width: 70%;
-}
-.homeparagraph {
-  font-size: 23px;
-}
-.homevideo {
-  border-style: solid;
-  border-width: 2px;
+ 
 
+.homeparagraph {
+  text-align: center;
+  font-size: 1.3vw;
 }
+
+ 
 
 #homecarousel {
-  width:50%;
-}
-/** Videos page **/
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  align: center;
-  justify-content: center;
-  flex-flow: row-wrap;
-  padding: 25px 125px;
+  width:90%;
+  margin: auto;
 }
 
-.flex-item {
-  padding: 25px 125px;
-  align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+ 
+
+.homecarouselpic {
+max-width: 80%;
+max-height:25%;
+margin-left: 10%;
+margin-right: 10%;
 }
 
-.youtubeicon {
-  width: 5%;
-  height: 10%;
-}
+ 
 
-/** About page **/
-
-.abouttext {
+.homeshopbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
   text-align: center;
-  padding: 15px;
-  text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 5%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 10% 33%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 30%;
+  height: 12%;
+  border-radius: 4px;
 }
 
-.pfp {
-  width: 265px;
-  height: 265px;
-  border: 2px solid black;
-}
+ 
 
-.profiles {
-  display: flex;
-  flex-direction: row;
-  box-align: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.pfpcards {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  font-family: arial;
-  padding: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-  border: solid 2px black;
-  border-radius: 20px;
-  background-color: white;
-}
-
-.title {
-  color: black;
-  font-size: 18px;
-}
-
-.instaicon {
-  width: 45px;
-}
-
-.abouttext {
+.homeshopbutton:hover {
+  background-color: #c10900;
   color: white;
 }
-.flex-item {
-  flex-grow: 1;
-  flex-shrink: 2;
-  flex-basis: 200px;
+
+ 
+
+.skateboard {
+  width: 50%;
+  margin: 10% 25%;
+  transition: transform .2s;
 }
-.pfnames {
-  font-size: 27px;
+
+ 
+
+.skateboard:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.testimonialheading {
+  font-size: 1.5vw;
+}
+
+/** footer **/
+
+ 
+
+.footercont {
+  padding: 0px!important;
+  margin: 0px!important;
+  background-color: #c52121;
+}
+
+ 
+
+.footer-copyright {
+  background-color: #af0000;
+}
+
+ 
+
+.foottext {
+  color: #FFF;
+  font-size: 120%;
+}
+
+ 
+
+.foottext:hover {
+  color: #ababab;
+}
+
+ 
+
+.rgba-white-light {
+  margin: 0 15%;
+}
+
+ 
+
+.clearfix {
+  margin: 10% 15% 5%;
+}
+
+ 
+
+.fa {
   color: black;
 }
 
+ 
 
-/*------footer-----*/
-
-footer {
-  width: 100%;
-  background-color: #f8f9fa;
-  padding: 60px 0px;
+.fa-facebook:hover {
+  color: #3b5998;
 }
 
-.fa {
-    padding: 15px;
-    font-size: 30px;
-    color: black;
+ 
+
+.fa-youtube:hover {
+  color: #f1f1f1;
 }
 
-.fa:hover {
-    color: #D5D5D5;
-    text-decoration: none;
+ 
+
+.fa-instagram:hover {
+  color: #962fbf;
+}
+
+ 
+
+.fa-tumblr:hover {
+  color: #2d5276;
+}
+
+ 
+
+.footer-socials {
+  margin-bottom: 0px!important;
+}
+
+ 
+
+.pt-4 {
+  margin-top: 2px!important;
+  padding: 0px!important;
+}
+
+ 
+
+.copyfoot {
+  padding-bottom: 2px;
 }
